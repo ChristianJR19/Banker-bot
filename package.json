@@ -1,0 +1,24 @@
+{
+  "name": "migratefun-sdk",
+  "version": "0.2.0",
+  "description": "TypeScript SDK for Migrate.fun token migration platform on Solana",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx watch src/index.ts",
+    "test": "jest --passWithNoTests"
+  },
+  "author": "Adam McBride <yordereal@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@solana/web3.js": "^1.95.0",
+    "@solana/spl-token": "^0.4.0",
+    "bs58": "^5.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0",
+    "tsx": "^4.0.0",
+    "@types/node": "^20.0.0"
+  }
+}
